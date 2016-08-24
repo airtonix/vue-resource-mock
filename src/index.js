@@ -9,7 +9,7 @@ export const mapRoutes = (map) => {
 	// https://www.npmjs.com/package/url-pattern
 	return Object.keys(map)
 		.reduce((result, route) => {
-			let [method, url] = route.split(),
+			let [method, url] = route.split(' '),
 				handler = routes[route];
 
 			if (handler.constructor.name === 'Function') {
