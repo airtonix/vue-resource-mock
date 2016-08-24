@@ -1,0 +1,17 @@
+{
+  "name": "vue-resource-mock",
+  "version": "0.0.1",
+  "description": "Mock backend routes when using vue-resource",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zenobius Jiricek <airtonix@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "url-pattern": "^1.0.1"
+  },
+  "peerDependencies": {
+    "vue-resource": "^0.9.x"
+  }
+}
